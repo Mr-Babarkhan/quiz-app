@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="app.css">
+
+</head>
+<body>
+    <div class="datetime">
+        <div class="time"></div>
+        <div class="date"> </div>
+    </div>
+
+    <div class="main">
+        <div id="box">
+            <h2 id="quebox">1) This is the first quesion?</h2>
+            <div class="row">
+                <input class="options" type="radio" name="option" id="option1" value="a">
+                <label for="Option1">a)Option 1</label>
+            </div>
+            <!-----------option b---------------->
+            <div class="row">
+                <input class="options" type="radio" name="option" id="option2" value="b">
+                <label for="Option2">b)Option 2</label>
+            </div>
+            <!-------------------option c-->
+            <div class="row">
+                <input class="options" type="radio" name="option" id="option3" value="c">
+                <label for="Option3">c)Option 3</label>
+            </div>
+            <!----------option d--------->
+            <div class="row">
+                <input class="options" type="radio" name="option" id="option4" value="d">
+                <label for="Option4">d)Option 4</label>
+            </div>
+      
+            <!----------------------------->
+            <button class="btn" onclick="submitQuiz()">Submit </button>
+            <p style="margin-top: auto; text-align: center;font-size: 12px;">After submitting you cannot go back</p>
+        </div>
+        
+
+    </div>
+
+
+<script src="app.js"></script>
+</body>
+</html>
